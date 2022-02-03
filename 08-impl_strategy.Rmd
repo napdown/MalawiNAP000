@@ -1,0 +1,93 @@
+# Implementation strategy (including costs)
+
+##	Projects for implementation and guidelines
+
+```{r, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning=FALSE)
+``` 
+
+```{r}
+
+programs<-readxl::read_excel("Tables_from_NAP.xlsx", 
+    sheet = "existing_programs")
+t1<-flextable(programs,col_keys = names(programs),
+  cwidth = 3,
+  cheight = 0.01,
+  defaults = list(),
+   theme_booktabs())
+t2<-fontsize(t1,part = 'all', size = 8)
+t3<-border_outer(t2,part = 'all', border = NULL)
+t4<-border_inner(t3,part = 'all', border = NULL)
+t5<-bold(t4,part='header')
+t6<-set_caption(t5, "Existing country programmes for climate change adaptation ")
+t6
+
+```
+
+
+
+##	Promoting action by all actors and stakeholders: policy and capacity-development, outreach
+
+The National Adaptation Programme and Action (NAPA) (2016) outlines key stakeholders and actors described below:
+
+The __Environmental Affairs Department (EAD)__ is the designated government agency responsible for managing Malawi's environmental policies and programs. The EAD is accountable for coordinating NAPA projects, with line ministries carrying out specific projects. The EAD is also the lead organization in climate change planning for the Government of Malawi.
+
+__Cabinet Committee on Health and Environment__ is the highest level executive decision-making entity for environmental affairs in Malawi. The National Council for the Environment is a government watchdog that ensures coordination with various stakeholders, promotes compliance with environmental regulation, and monitors development projects to incorporate environmental concerns.
+
+__Department of Climate Change and Meteorological Services__ is tasked with providing climate and weather information and services. Its role in adaptation includes producing climate change scenarios and improving forecasting and early warning systems. 
+
+__Department of Poverty and Disaster Management Affairs__ is the government watchdog for coordinating disaster and management activities. The department improves preparedness and response to changing disaster risks. The department also collaborates with relevant stakeholders in promoting the use of climate-proof structures, particularly in flood-prone
+areas
+
+Ministry of Agriculture and Food Security promotes agricultural and rural development in Malawi. The ministry helps to educate and promote climate change adaptation practices as well as ensuring food security.
+
+__Ministry of Irrigation and Water Development__ ensures the provision and equitable access to water throughout Malawi. It enhances climate change adaptation through the provision of water supply as climate-induced threats increase.
+
+__Ministry of Environment and Climate Change Management__ plays a regulatory role by ensuring climate change projects and programmes are implemented following the international climate change protocols and conventions, national policies, regulations and guidelines. It also provides the infrastructure to ensure the information on climate change mechanisms has the widest reach.
+
+__Environmental Affairs Department of the Ministry of Natural Resources and Environment__ serves as the focal point for the United Nations Framework Convention on Climate Change (UNFCCC). It coordinates climate change adaptation planning for the government of Malawi.  
+
+__Malawi Red Cross Society__ is a non-governmental organization that helps to reduce human suffering during disasters. The organization strives to reduce the vulnerability of those at risk and increase preparedness for more frequent disasters.
+
+__National Smallholder Farmers' Association of Malawi__ empowers and represent farmers interests. It promotes adaptation practices and supports access to risks pooling schemes.
+
+__Academia and research institutions__ who generate new local knowledge and develop appropriate adaptation solutions
+
+__Private sector stakeholders__ who provide and implement specific commercial adaptation solutions through public-private partnerships
+
+__Media__ to propagate climate change adaptation messages.
+
+
+##	Addressing vulnerabilities and risks in key systems and sectors
+
+The vulnerabilities and risks in key systems and sectors have been presented in sections 6 and 7 of this report. The approach to addressing these were discussed during the 2016 workshop and are outlined in Table 17 below. Any proposed projects to meeting the adaptation targets should be to the extent possible aligned with the GCF country programme and other relevant climate finance mechanisms (international and domestic) and implementing partners as well as take into account technology and capacity building.
+
+
+```{r}
+
+elementA<-readxl::read_excel("Tables_from_NAP.xlsx", 
+    sheet = "stocktaking_elementA")
+t1<-flextable(elementA,col_keys = names(elementA),
+  cwidth = 3,
+  cheight = 0.01,
+  defaults = list(),
+   theme_booktabs())
+t2<-fontsize(t1,part = 'all', size = 10)
+t3<-border_outer(t2,part = 'all', border = NULL)
+t4<-border_inner(t3,part = 'all', border = NULL)
+t5<-set_caption(t4, "Addressing vulnerability and risks in key sectors/systems (Map Stocktaking Report 2016) ")
+t5
+
+```
+
+
+##	Better informed decision-making: climate information services, early warning, science and technology, decision-support modelling, research
+
+Essential cross-cutting projects/programmes would include:  
+
+*	Improving community resilience through the development of sustainable rural livelihoods.
+*	Restoring forests in the Upper, Middle, and Lower Shire valleys.
+*	Improving agricultural production under erratic rains and changing climatic conditions.
+*	Improving Malawi's preparedness to cope with droughts and floods.
+*	Improving climate monitoring to enhance Malawi's early warning capability and decision-making.
+*	Improving sustainable utilization of Lake Malawi and its lakeshore.

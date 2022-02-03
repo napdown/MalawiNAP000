@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 7 National adaptation priorities | A Minimal Book Example</title>
+  <meta name="description" content="<p>This is a minimal example of using the bookdown package to write a book.
+The HTML output format for this example is bookdown::gitbook,
+set in the _output.yml file.</p>" />
+  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 7 National adaptation priorities | A Minimal Book Example" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="<p>This is a minimal example of using the bookdown package to write a book.
+The HTML output format for this example is bookdown::gitbook,
+set in the _output.yml file.</p>" />
+  <meta name="github-repo" content="rstudio/bookdown-demo" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 7 National adaptation priorities | A Minimal Book Example" />
+  
+  <meta name="twitter:description" content="<p>This is a minimal example of using the bookdown package to write a book.
+The HTML output format for this example is bookdown::gitbook,
+set in the _output.yml file.</p>" />
+  
+
+<meta name="author" content="John Doe" />
+
+
+<meta name="date" content="2022-02-02" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="climate-change-adaptation-assessment.html"/>
+<link rel="next" href="implementation-strategy-including-costs.html"/>
+<script src="libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+<link href="libs/tabwid-1.0.0/tabwid.css" rel="stylesheet" />
+<script src="libs/htmlwidgets-1.5.4/htmlwidgets.js"></script>
+<script src="libs/plotly-binding-4.10.0/plotly.js"></script>
+<script src="libs/typedarray-0.1/typedarray.min.js"></script>
+<link href="libs/crosstalk-1.2.0/css/crosstalk.min.css" rel="stylesheet" />
+<script src="libs/crosstalk-1.2.0/js/crosstalk.min.js"></script>
+<link href="libs/plotly-htmlwidgets-css-2.5.1/plotly-htmlwidgets.css" rel="stylesheet" />
+<script src="libs/plotly-main-2.5.1/plotly-latest.min.js"></script>
+
+
+<style type="text/css">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">National Adaptation Plan of Malawi</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Preliminaries</a>
+<ul>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#the-process-to-formulate-the-nap"><i class="fa fa-check"></i>The process to formulate the NAP</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#about-malawi"><i class="fa fa-check"></i>ABOUT MALAWI</a></li>
+</ul></li>
+<li class="chapter" data-level="1" data-path="introduction.html"><a href="introduction.html"><i class="fa fa-check"></i><b>1</b> Introduction</a></li>
+<li class="chapter" data-level="2" data-path="framework-for-the-nap.html"><a href="framework-for-the-nap.html"><i class="fa fa-check"></i><b>2</b> Framework for the NAP</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="framework-for-the-nap.html"><a href="framework-for-the-nap.html#essential-functions-of-the-nap-process"><i class="fa fa-check"></i><b>2.1</b> Essential functions of the NAP process</a></li>
+<li class="chapter" data-level="2.2" data-path="framework-for-the-nap.html"><a href="framework-for-the-nap.html#the-nap-as-the-umbrella-programme-for-adaptation"><i class="fa fa-check"></i><b>2.2</b> The NAP as the umbrella programme for adaptation</a></li>
+<li class="chapter" data-level="2.3" data-path="framework-for-the-nap.html"><a href="framework-for-the-nap.html#coherence-with-national-development-context-sdgs-sendai-and-other-relevant-frameworks"><i class="fa fa-check"></i><b>2.3</b> Coherence with national development context, SDGs, Sendai and other relevant frameworks</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="approachmethodologies.html"><a href="approachmethodologies.html"><i class="fa fa-check"></i><b>3</b> Approach/Methodologies</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="approachmethodologies.html"><a href="approachmethodologies.html#guiding-principles"><i class="fa fa-check"></i><b>3.1</b> Guiding principles</a></li>
+<li class="chapter" data-level="3.2" data-path="approachmethodologies.html"><a href="approachmethodologies.html#guidelines-used"><i class="fa fa-check"></i><b>3.2</b> Guidelines used</a></li>
+<li class="chapter" data-level="3.3" data-path="approachmethodologies.html"><a href="approachmethodologies.html#a-systems-approach-to-adaptation"><i class="fa fa-check"></i><b>3.3</b> A systems approach to adaptation</a></li>
+<li class="chapter" data-level="3.4" data-path="approachmethodologies.html"><a href="approachmethodologies.html#other-unique-considerations"><i class="fa fa-check"></i><b>3.4</b> Other unique considerations</a></li>
+<li class="chapter" data-level="3.5" data-path="approachmethodologies.html"><a href="approachmethodologies.html#road-map"><i class="fa fa-check"></i><b>3.5</b> Road Map</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="vision-goals-and-objectives-of-the-nap.html"><a href="vision-goals-and-objectives-of-the-nap.html"><i class="fa fa-check"></i><b>4</b> Vision, goals and objectives of the NAP</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="vision-goals-and-objectives-of-the-nap.html"><a href="vision-goals-and-objectives-of-the-nap.html#vision-for-adaptation-for-the-country"><i class="fa fa-check"></i><b>4.1</b> Vision for Adaptation for the Country</a></li>
+<li class="chapter" data-level="4.2" data-path="vision-goals-and-objectives-of-the-nap.html"><a href="vision-goals-and-objectives-of-the-nap.html#goals-and-objectives-of-the-nap"><i class="fa fa-check"></i><b>4.2</b> Goals and Objectives of the NAP</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="national-context.html"><a href="national-context.html"><i class="fa fa-check"></i><b>5</b> National context</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="national-context.html"><a href="national-context.html#national-circumstances"><i class="fa fa-check"></i><b>5.1</b> National circumstances</a>
+<ul>
+<li class="chapter" data-level="5.1.1" data-path="national-context.html"><a href="national-context.html#national"><i class="fa fa-check"></i><b>5.1.1</b> National</a></li>
+<li class="chapter" data-level="5.1.2" data-path="national-context.html"><a href="national-context.html#north"><i class="fa fa-check"></i><b>5.1.2</b> North</a></li>
+<li class="chapter" data-level="5.1.3" data-path="national-context.html"><a href="national-context.html#central"><i class="fa fa-check"></i><b>5.1.3</b> Central</a></li>
+<li class="chapter" data-level="5.1.4" data-path="national-context.html"><a href="national-context.html#south"><i class="fa fa-check"></i><b>5.1.4</b> South</a></li>
+</ul></li>
+<li class="chapter" data-level="5.2" data-path="national-context.html"><a href="national-context.html#legal-frameworks"><i class="fa fa-check"></i><b>5.2</b> Legal frameworks</a></li>
+<li class="chapter" data-level="5.3" data-path="national-context.html"><a href="national-context.html#institutional-arrangements-for-climate-change-adaptation"><i class="fa fa-check"></i><b>5.3</b> Institutional arrangements for climate change adaptation</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="climate-change-adaptation-assessment.html"><a href="climate-change-adaptation-assessment.html"><i class="fa fa-check"></i><b>6</b> Climate change adaptation assessment</a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="climate-change-adaptation-assessment.html"><a href="climate-change-adaptation-assessment.html#observed-climate-impacts"><i class="fa fa-check"></i><b>6.1</b> Observed climate impacts</a></li>
+<li class="chapter" data-level="6.2" data-path="climate-change-adaptation-assessment.html"><a href="climate-change-adaptation-assessment.html#projected-future-climate"><i class="fa fa-check"></i><b>6.2</b> Projected future climate</a></li>
+<li class="chapter" data-level="6.3" data-path="climate-change-adaptation-assessment.html"><a href="climate-change-adaptation-assessment.html#assessment-by-key-systems"><i class="fa fa-check"></i><b>6.3</b> Assessment by key systems</a>
+<ul>
+<li class="chapter" data-level="6.3.1" data-path="climate-change-adaptation-assessment.html"><a href="climate-change-adaptation-assessment.html#food-production-megasystem"><i class="fa fa-check"></i><b>6.3.1</b> Food Production Megasystem</a></li>
+<li class="chapter" data-level="6.3.2" data-path="climate-change-adaptation-assessment.html"><a href="climate-change-adaptation-assessment.html#water-resources-megasystem"><i class="fa fa-check"></i><b>6.3.2</b> Water Resources Megasystem</a></li>
+<li class="chapter" data-level="6.3.3" data-path="climate-change-adaptation-assessment.html"><a href="climate-change-adaptation-assessment.html#water-supply-megasystem"><i class="fa fa-check"></i><b>6.3.3</b> Water Supply Megasystem</a></li>
+<li class="chapter" data-level="6.3.4" data-path="climate-change-adaptation-assessment.html"><a href="climate-change-adaptation-assessment.html#energy-megasystem"><i class="fa fa-check"></i><b>6.3.4</b> Energy megasystem</a></li>
+<li class="chapter" data-level="6.3.5" data-path="climate-change-adaptation-assessment.html"><a href="climate-change-adaptation-assessment.html#waste-management-megasystem"><i class="fa fa-check"></i><b>6.3.5</b> Waste management megasystem</a></li>
+<li class="chapter" data-level="6.3.6" data-path="climate-change-adaptation-assessment.html"><a href="climate-change-adaptation-assessment.html#health"><i class="fa fa-check"></i><b>6.3.6</b> Health</a></li>
+<li class="chapter" data-level="6.3.7" data-path="climate-change-adaptation-assessment.html"><a href="climate-change-adaptation-assessment.html#transport-system"><i class="fa fa-check"></i><b>6.3.7</b> Transport System</a></li>
+<li class="chapter" data-level="6.3.8" data-path="climate-change-adaptation-assessment.html"><a href="climate-change-adaptation-assessment.html#social-cultural-system"><i class="fa fa-check"></i><b>6.3.8</b> Social-Cultural System</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="national-adaptation-priorities.html"><a href="national-adaptation-priorities.html"><i class="fa fa-check"></i><b>7</b> National adaptation priorities</a>
+<ul>
+<li class="chapter" data-level="7.1" data-path="national-adaptation-priorities.html"><a href="national-adaptation-priorities.html#key-risks-and-adaptation-options"><i class="fa fa-check"></i><b>7.1</b> Key risks and adaptation options</a></li>
+<li class="chapter" data-level="7.2" data-path="national-adaptation-priorities.html"><a href="national-adaptation-priorities.html#ranking-adaptation-actions"><i class="fa fa-check"></i><b>7.2</b> Ranking adaptation actions</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="implementation-strategy-including-costs.html"><a href="implementation-strategy-including-costs.html"><i class="fa fa-check"></i><b>8</b> Implementation strategy (including costs)</a>
+<ul>
+<li class="chapter" data-level="8.1" data-path="implementation-strategy-including-costs.html"><a href="implementation-strategy-including-costs.html#projects-for-implementation-and-guidelines"><i class="fa fa-check"></i><b>8.1</b> Projects for implementation and guidelines</a></li>
+<li class="chapter" data-level="8.2" data-path="implementation-strategy-including-costs.html"><a href="implementation-strategy-including-costs.html#promoting-action-by-all-actors-and-stakeholders-policy-and-capacity-development-outreach"><i class="fa fa-check"></i><b>8.2</b> Promoting action by all actors and stakeholders: policy and capacity-development, outreach</a></li>
+<li class="chapter" data-level="8.3" data-path="implementation-strategy-including-costs.html"><a href="implementation-strategy-including-costs.html#addressing-vulnerabilities-and-risks-in-key-systems-and-sectors"><i class="fa fa-check"></i><b>8.3</b> Addressing vulnerabilities and risks in key systems and sectors</a></li>
+<li class="chapter" data-level="8.4" data-path="implementation-strategy-including-costs.html"><a href="implementation-strategy-including-costs.html#better-informed-decision-making-climate-information-services-early-warning-science-and-technology-decision-support-modelling-research"><i class="fa fa-check"></i><b>8.4</b> Better informed decision-making: climate information services, early warning, science and technology, decision-support modelling, research</a></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path="monitoring-and-evaluation-of-adaptation-actions-process-and-outcomes.html"><a href="monitoring-and-evaluation-of-adaptation-actions-process-and-outcomes.html"><i class="fa fa-check"></i><b>9</b> Monitoring and evaluation of adaptation actions, process and outcomes</a></li>
+<li class="chapter" data-level="10" data-path="reporting.html"><a href="reporting.html"><i class="fa fa-check"></i><b>10</b> Reporting</a>
+<ul>
+<li class="chapter" data-level="10.1" data-path="reporting.html"><a href="reporting.html#adaptation-communicationsndcs"><i class="fa fa-check"></i><b>10.1</b> Adaptation communications/NDCs</a></li>
+<li class="chapter" data-level="10.2" data-path="reporting.html"><a href="reporting.html#links-to-sdg-voluntary-reporting-and-sendai-framework-monitor"><i class="fa fa-check"></i><b>10.2</b> Links to SDG voluntary reporting and Sendai Framework Monitor</a></li>
+<li class="chapter" data-level="10.3" data-path="reporting.html"><a href="reporting.html#gender"><i class="fa fa-check"></i><b>10.3</b> Gender</a></li>
+</ul></li>
+<li class="chapter" data-level="11" data-path="further-development-of-an-effective-nap-process-and-future-nap-updates.html"><a href="further-development-of-an-effective-nap-process-and-future-nap-updates.html"><i class="fa fa-check"></i><b>11</b> Further development of an effective NAP process and future NAP updates</a>
+<ul>
+<li class="chapter" data-level="11.1" data-path="further-development-of-an-effective-nap-process-and-future-nap-updates.html"><a href="further-development-of-an-effective-nap-process-and-future-nap-updates.html#data-and-system-observations-to-support-future-assessments"><i class="fa fa-check"></i><b>11.1</b> Data and system observations to support future assessments</a></li>
+<li class="chapter" data-level="11.2" data-path="further-development-of-an-effective-nap-process-and-future-nap-updates.html"><a href="further-development-of-an-effective-nap-process-and-future-nap-updates.html#roadmap-for-review-and-update-of-the-nap-in-five-years"><i class="fa fa-check"></i><b>11.2</b> Roadmap for review and update of the NAP in five years</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="annexes.html"><a href="annexes.html"><i class="fa fa-check"></i>ANNEXES</a></li>
+<li class="chapter" data-level="" data-path="annex-ii-climate-projections---based-on-ssps.html"><a href="annex-ii-climate-projections---based-on-ssps.html"><i class="fa fa-check"></i>Annex II: Climate Projections - based on SSPs</a></li>
+<li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">A Minimal Book Example</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="national-adaptation-priorities" class="section level1" number="7">
+<h1><span class="header-section-number">Chapter 7</span> National adaptation priorities</h1>
+<div id="key-risks-and-adaptation-options" class="section level2" number="7.1">
+<h2><span class="header-section-number">7.1</span> Key risks and adaptation options</h2>
+<p>The key risks and adaptation options are presented based on analysis and summary of past and current data and reports up to 2020. The risk levels are divided into three temporal periods: near future (2011 - 2040 which is the period for which most of the granular [sub-regional] climate projections are based; mid-future (MF – covering the period 2041-2070) and far future (FF – the period 2071 to 2100). Risk level is assigned based on the criteria outlined below and expert judgment as presented in the reports in the framework outlined in the NAP technical guidelines report. It is evident that there are inadequately projected risks, particularly beyond 2040 for most of the systems/sectors and how this gap can be addressed is outlined in section 8 of this report.</p>
+<p>Risk assessment criteria (scores are provided in brackets, with a possible highest score of 24, and ranked as follows: high (20 or more; medium (15-19), low (14 and below):<br />
+<em>The probability of a given climate hazard</em> – The general probability for change in a climate hazard (such as temperature or extreme precipitation events) occurring.</p>
+<ul>
+<li><strong>High</strong> probability of the climate hazard occurring (3);</li>
+<li><strong>Medium</strong> probability of the climate hazard occurring (2);</li>
+<li><strong>Low</strong> probability of the climate hazard occurring (1).</li>
+</ul>
+<p><em>The likelihood of impact occurrence</em> – The likelihood that a change in a given climate hazard (e.g. temperature rise) will result in a particular impact (e.g. material failure). Examples of likelihood categories include:</p>
+<ul>
+<li><strong>Virtually certain/already occurring</strong> – Nearly certain likelihood of the impact occurring over the life of the infrastructure, and/or the climate hazard may already be impacting infrastructure (3);</li>
+<li>__High __likelihood of the impact occurring over the life of the infrastructure (2);</li>
+<li><strong>Moderate</strong> likelihood of the impact occurring over the life of the infrastructure (1);</li>
+<li><strong>Low</strong> likelihood of the impact occurring over the life of the infrastructure (0).</li>
+</ul>
+<p><em>The magnitude of the consequence</em> – The combined impacts, should a given hazard occur, taking into account such factors as:</p>
+<ul>
+<li><strong>Internal operations</strong>, including the scope and duration of service interruptions, reputational risk, and the potential to encounter regulatory problems (1 - low to 3 – high);</li>
+<li><strong>Capital and operating costs</strong>, including all capital and operating costs to the stakeholder and revenue implications caused by the climate change impact; (1 - low to 3 – high);</li>
+<li><strong>Number of people impacted</strong>, including considerations related to any impacts on vulnerable populations (including, but not limited to seniors, low-income communities, mentally or physically disabled citizens, homebound residents, and children); (1 - low to 3 – high);</li>
+<li><strong>Public health</strong>, including worker safety; (1 - low to 3 – high);</li>
+<li><strong>Economy</strong>, including any impacts to the city’s economy, the price of services to customers, and clean-up costs incurred by the public; (1 - low to 3 – high);</li>
+<li><strong>Environment</strong>, including the release of toxic materials and impacts on biodiversity, the state’s ecosystems, and historic sites. (1 - low to 3 – high).</li>
+</ul>
+<template id="a42ccdeb-81ad-4ae7-b4b5-811bee27a27f"><style>
+.tabwid table{
+  border-spacing:0px !important;
+  border-collapse:collapse;
+  line-height:1;
+  margin-left:auto;
+  margin-right:auto;
+  border-width: 0;
+  display: table;
+  margin-top: 1.275em;
+  margin-bottom: 1.275em;
+  border-color: transparent;
+}
+.tabwid_left table{
+  margin-left:0;
+}
+.tabwid_right table{
+  margin-right:0;
+}
+.tabwid td {
+    padding: 0;
+}
+.tabwid a {
+  text-decoration: none;
+}
+.tabwid thead {
+    background-color: transparent;
+}
+.tabwid tfoot {
+    background-color: transparent;
+}
+.tabwid table tr {
+background-color: transparent;
+}
+</style><div class="tabwid"><style>.cl-f92c0ea0{}.cl-f9224df2{font-family:'Arial';font-size:8pt;font-weight:bold;font-style:normal;text-decoration:none;color:rgba(0, 0, 0, 1.00);background-color:transparent;}.cl-f9224df3{font-family:'Arial';font-size:8pt;font-weight:normal;font-style:normal;text-decoration:none;color:rgba(0, 0, 0, 1.00);background-color:transparent;}.cl-f9224df4{margin:0;text-align:left;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);padding-bottom:5pt;padding-top:5pt;padding-left:5pt;padding-right:5pt;line-height: 1;background-color:transparent;}.cl-f922ea00{width:216pt;background-color:transparent;vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-f922ea01{width:216pt;background-color:transparent;vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}</style><table class='cl-f92c0ea0'>
+<caption class="Table Caption">
+<p><span id="tab:unnamed-chunk-48">Table 7.1: </span>Projected climate changes and impacts. NF – near future (2020-2040), MF – mid-future (2041-2069), FF – far future (2070-2099)</p>
+</caption>
+<thead><tr style="overflow-wrap:break-word;"><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df2">Parameter</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df2">Hazard/</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df2">Impacts</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df2">Vulnerabilities at Scale</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df2">Affected Systems</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df2">Risk...6</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df2">Risk...7</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df2">Risk...8</span></p></td></tr></thead><tbody><tr style="overflow-wrap:break-word;"><td class="cl-f922ea00"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea00"><p class="cl-f9224df4"><span class="cl-f9224df3">Threat</span></p></td><td class="cl-f922ea00"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea00"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea00"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea00"><p class="cl-f9224df4"><span class="cl-f9224df3">(NF)</span></p></td><td class="cl-f922ea00"><p class="cl-f9224df4"><span class="cl-f9224df3">(MF)</span></p></td><td class="cl-f922ea00"><p class="cl-f9224df4"><span class="cl-f9224df3">(FF)</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Below normal rainfall</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Drought</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Decreased crop production</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Several hundred hunger-related deaths</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Crop production</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">High</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">High</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Low</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Increased food crisis</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Erosion of social capital and informal social support systems in poor communities</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Livestock production</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">(Actionaid, 2002; Aragie et al., 2018, 2018; Future Climate for Africa, 2019b; GCF, 2017; Hughes et al., 2019b; IFPRI, 2020; Mwanaleza, 2017)</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Depleted food reserves and unaffordable food prices</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Malawi loses 4.6 % of its maize production each year due to droughts</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Agriculture markets and trade</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Maize export ban</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Droughts cause poverty to increase further</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Social-Cultural</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">By the 2090s, annual rainfall is projected to decrease throughout Malawi by -14%</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Lack of access to water in rural areas</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Health</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Water scarcity</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Donor reliance</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Biodiversity loss</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Declining lake levels Terrestrial and aquatic biodiversity decline</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Substantial lake levels decline below the Lake Malawi Outflow Threshold</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Energy - hydropower</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Medium</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">High</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">High</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">(Actionaid, 2002; Aragie et al., 2018; Future Climate for Africa, 2019b; GCF, 2017; Hughes et al., 2019b; IFPRI, 2020)</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Decreasing fish catches</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Decreased irrigation water supply in the Shire River Basin</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Fisheries</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Water pollution</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Decreasing fish catches</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Ecosystems</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Increased loss of vegetation</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Increasing human pressure and poor governance of natural resources</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Forestry</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Increasing biological and chemical pollution of water from urban areas and industrial waste</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Water resources</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Food insecurity in rural areas</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Eutrophication of lakes leading to reduced biodiversity</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Loss of biodiversity and degeneration of the ecosystem</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">(Hughes et al., 2019b; Japan International Cooperation Agency (JICA), 2020; Mapulanga &amp; Naito, 2019)</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Land degradation</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Declining soil fertility and soil loss</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Pollution and increased vulnerability to climate change</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Ecosystems</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">High</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Med</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">low</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Water depletion</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Destruction of crop land</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Water resources</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Solid water disposal</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Sedimentation of water sources</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Health</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Deforestation</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Threat to social and economic development</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Erosion and sedimentation along slopes, river and stream banks</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Weak land tenure security</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Poor environment health</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Decreased access to piped water leading to the use of unprotected sources</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Control erosion mitigation and reduce sedimentation</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Protect source water from sedimentation</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Above normal rainfall</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Floods, storms, Intense runoff,</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Localized floods</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">A shortage of agricultural commodities</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Crop production</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">High</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Med.</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">low</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Hail</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Shire River flooding</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Reduced maize production – about 12 % per year</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Livestock production</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">(Actionaid, 2002; Hughes et al., 2019b; IFPRI, 2020; Malawi, 2018; Ministry of Natural Resources Energy and Mining, 2018)</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Chronic and acute respiratory diseases</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Maize production losses in the southern Malawi Average loss of 0.7 % of the annual GDP due to the flooding of lakes and the overflowing of rivers.</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Health</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Generally wetter days for Malawi</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Increased risk of contracting pneumonia in children</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Energy</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Disruption to infrastructure</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Increased risk of flooding from groundwater and surface water</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Water supplies</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Increased landslides</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Disruption of rail and road transportation</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Transport</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">High rainfall variability</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Changes in surface water flows including flooding</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">The combined effects of temperature increase and rainfall decrease result in significantly lower flows in the Shire River</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Energy</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">High</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Med</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Med</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Lake fluctuations – below normal rainfall</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Reduced hydropower production</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Water supplies</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">(GCF, 2017; Mtilatila et al., 2020; Pauw et al., 2011)</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Increased poverty among urban and nonfarm households</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Social-Cultural</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Increased national food shortages and higher domestic prices.</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Food</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Shorter rainfall seasons,</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Water shortages</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Increased irrigation in rural areas</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Food production</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">High</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Medium</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Low</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Late onset of rainy season</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Increased poverty among the vulnerable rural communities</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Water supplies</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">(Hughes et al., 2019b; Mwanaleza, 2017)</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">High temperatures</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Heat</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Water availability</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Decreasing water access trends during dry spells</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Crop production</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">High</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Med</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Low</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Vermin and pests</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Uncertain water availability</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Livestock production</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">(Global Facility for Disaster Reduction and Recovery (GFDRR), 2015; Hughes et al., 2019b; Mtilatila et al., 2020)</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Reduction in cloud cover</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Increased risk of changes in distribution of vermin and pests</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Water resources</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Increased irrigation</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Skin conditions due to increased exposure to sunshine</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Water supplies</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Increased mean annual temperature by 0.21°C per decade over the last 30 years</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Health</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Biodiversity loss</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Decreasing lake levels</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">An increase in temperature of 5 ◦C reduces the lake level by 1.42 m</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Fisheries</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Med</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Low</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Low</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3">Energy production</span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td><td class="cl-f922ea01"><p class="cl-f9224df4"><span class="cl-f9224df3"></span></p></td></tr></tbody></table></div></template>
+<div class="flextable-shadow-host" id="94bb1bce-8816-4ee6-a368-b35975c234ae"></div>
+<script>
+var dest = document.getElementById("94bb1bce-8816-4ee6-a368-b35975c234ae");
+var template = document.getElementById("a42ccdeb-81ad-4ae7-b4b5-811bee27a27f");
+var caption = template.content.querySelector("caption");
+if(caption) {
+  caption.style.cssText = "display:block;text-align:center;";
+  var newcapt = document.createElement("p");
+  newcapt.appendChild(caption)
+  dest.parentNode.insertBefore(newcapt, dest.previousSibling);
+}
+var fantome = dest.attachShadow({mode: 'open'});
+var templateContent = template.content;
+fantome.appendChild(templateContent);
+</script>
+
+</div>
+<div id="ranking-adaptation-actions" class="section level2" number="7.2">
+<h2><span class="header-section-number">7.2</span> Ranking adaptation actions</h2>
+<p>The adaptation options listed below have been ranked using a set of criteria (Table 15) that is partly modified from Sinay and Carter (2020) to make it simple for a large group of diverse stakeholders to come to consensus easily on the priority adaptation actions which will be unpacked in the project development plans. The adaptation options are clustered under over-arching adaptation themes which are the most likely to generate synergistic and wide-reaching co-benefits for the country as a whole. The project development plans will take into consideration other specific criteria that will assess aspects such as alignment with SDGs, Sendai Framework and Country GCF programmes, and inclusion of cross-cutting factors such as gender, vulnerable groups, policy and legislative reforms, and knowledge and capacity building at individual, community, institutional and systemic levels.</p>
+<template id="092f74e2-9102-48a6-81d9-7acb1c76139e"><style>
+.tabwid table{
+  border-spacing:0px !important;
+  border-collapse:collapse;
+  line-height:1;
+  margin-left:auto;
+  margin-right:auto;
+  border-width: 0;
+  display: table;
+  margin-top: 1.275em;
+  margin-bottom: 1.275em;
+  border-color: transparent;
+}
+.tabwid_left table{
+  margin-left:0;
+}
+.tabwid_right table{
+  margin-right:0;
+}
+.tabwid td {
+    padding: 0;
+}
+.tabwid a {
+  text-decoration: none;
+}
+.tabwid thead {
+    background-color: transparent;
+}
+.tabwid tfoot {
+    background-color: transparent;
+}
+.tabwid table tr {
+background-color: transparent;
+}
+</style><div class="tabwid"><style>.cl-f9500512{}.cl-f948b49c{font-family:'Arial';font-size:8pt;font-weight:bold;font-style:normal;text-decoration:none;color:rgba(0, 0, 0, 1.00);background-color:transparent;}.cl-f948b49d{font-family:'Arial';font-size:8pt;font-weight:normal;font-style:normal;text-decoration:none;color:rgba(0, 0, 0, 1.00);background-color:transparent;}.cl-f948b49e{margin:0;text-align:left;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);padding-bottom:5pt;padding-top:5pt;padding-left:5pt;padding-right:5pt;line-height: 1;background-color:transparent;}.cl-f948b49f{margin:0;text-align:right;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);padding-bottom:5pt;padding-top:5pt;padding-left:5pt;padding-right:5pt;line-height: 1;background-color:transparent;}.cl-f94950a0{width:216pt;background-color:transparent;vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-f94950a1{width:216pt;background-color:transparent;vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-f94950a2{width:216pt;background-color:transparent;vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-f94950a3{width:216pt;background-color:transparent;vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}</style><table class='cl-f9500512'>
+<caption class="Table Caption">
+<p><span id="tab:unnamed-chunk-49">Table 7.2: </span>Adaptation options ranking criteria (Source: modified from Sinay and Carter (2020))</p>
+</caption>
+<thead><tr style="overflow-wrap:break-word;"><td class="cl-f94950a2"><p class="cl-f948b49e"><span class="cl-f948b49c">Criteria</span></p></td><td class="cl-f94950a2"><p class="cl-f948b49e"><span class="cl-f948b49c">Indicator</span></p></td><td class="cl-f94950a2"><p class="cl-f948b49e"><span class="cl-f948b49c">States/Score</span></p></td><td class="cl-f94950a3"><p class="cl-f948b49f"><span class="cl-f948b49c">Values</span></p></td><td class="cl-f94950a2"><p class="cl-f948b49e"><span class="cl-f948b49c">Observations</span></p></td></tr></thead><tbody><tr style="overflow-wrap:break-word;"><td class="cl-f94950a0"><p class="cl-f948b49e"><span class="cl-f948b49c">Uncertainty</span></p></td><td class="cl-f94950a0"><p class="cl-f948b49e"><span class="cl-f948b49d">Scenario</span></p></td><td class="cl-f94950a0"><p class="cl-f948b49e"><span class="cl-f948b49d">1.5ᵒC</span></p></td><td class="cl-f94950a1"><p class="cl-f948b49f"><span class="cl-f948b49d">1</span></p></td><td class="cl-f94950a0"><p class="cl-f948b49e"><span class="cl-f948b49d">The state of this indicator relates to the average temperature increase used for planning. 1 – Near future</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-f94950a2"><p class="cl-f948b49e"><span class="cl-f948b49c"></span></p></td><td class="cl-f94950a2"><p class="cl-f948b49e"><span class="cl-f948b49d"></span></p></td><td class="cl-f94950a2"><p class="cl-f948b49e"><span class="cl-f948b49d">3ᵒC</span></p></td><td class="cl-f94950a3"><p class="cl-f948b49f"><span class="cl-f948b49d">2</span></p></td><td class="cl-f94950a2"><p class="cl-f948b49e"><span class="cl-f948b49d"> 2 – Mid future</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-f94950a2"><p class="cl-f948b49e"><span class="cl-f948b49c"></span></p></td><td class="cl-f94950a2"><p class="cl-f948b49e"><span class="cl-f948b49d"></span></p></td><td class="cl-f94950a2"><p class="cl-f948b49e"><span class="cl-f948b49d">5ᵒC</span></p></td><td class="cl-f94950a3"><p class="cl-f948b49f"><span class="cl-f948b49d">3</span></p></td><td class="cl-f94950a2"><p class="cl-f948b49e"><span class="cl-f948b49d"> 3 – Far future</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-f94950a2"><p class="cl-f948b49e"><span class="cl-f948b49c">Costs</span></p></td><td class="cl-f94950a2"><p class="cl-f948b49e"><span class="cl-f948b49d">Costs</span></p></td><td class="cl-f94950a2"><p class="cl-f948b49e"><span class="cl-f948b49d">Low</span></p></td><td class="cl-f94950a3"><p class="cl-f948b49f"><span class="cl-f948b49d">3</span></p></td><td class="cl-f94950a2"><p class="cl-f948b49e"><span class="cl-f948b49d">Low in comparison to other responses</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-f94950a2"><p class="cl-f948b49e"><span class="cl-f948b49c"></span></p></td><td class="cl-f94950a2"><p class="cl-f948b49e"><span class="cl-f948b49d"></span></p></td><td class="cl-f94950a2"><p class="cl-f948b49e"><span class="cl-f948b49d">Moderate</span></p></td><td class="cl-f94950a3"><p class="cl-f948b49f"><span class="cl-f948b49d">2</span></p></td><td class="cl-f94950a2"><p class="cl-f948b49e"><span class="cl-f948b49d">Moderate in comparison to other responses</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-f94950a2"><p class="cl-f948b49e"><span class="cl-f948b49c"></span></p></td><td class="cl-f94950a2"><p class="cl-f948b49e"><span class="cl-f948b49d"></span></p></td><td class="cl-f94950a2"><p class="cl-f948b49e"><span class="cl-f948b49d">High</span></p></td><td class="cl-f94950a3"><p class="cl-f948b49f"><span class="cl-f948b49d">1</span></p></td><td class="cl-f94950a2"><p class="cl-f948b49e"><span class="cl-f948b49d">High in comparison to other responses</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-f94950a2"><p class="cl-f948b49e"><span class="cl-f948b49c">Decision-Making time horizons</span></p></td><td class="cl-f94950a2"><p class="cl-f948b49e"><span class="cl-f948b49d">Timing</span></p></td><td class="cl-f94950a2"><p class="cl-f948b49e"><span class="cl-f948b49d">Urgent</span></p></td><td class="cl-f94950a3"><p class="cl-f948b49f"><span class="cl-f948b49d">3</span></p></td><td class="cl-f94950a2"><p class="cl-f948b49e"><span class="cl-f948b49d">If the implementation of the adaptation option can avoid life threatening situations.</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-f94950a2"><p class="cl-f948b49e"><span class="cl-f948b49c"></span></p></td><td class="cl-f94950a2"><p class="cl-f948b49e"><span class="cl-f948b49d"></span></p></td><td class="cl-f94950a2"><p class="cl-f948b49e"><span class="cl-f948b49d">Convenient</span></p></td><td class="cl-f94950a3"><p class="cl-f948b49f"><span class="cl-f948b49d">2</span></p></td><td class="cl-f94950a2"><p class="cl-f948b49e"><span class="cl-f948b49d">When the implementation of the adaptation option is not urgent, but is in synchrony with ongoing development.</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-f94950a2"><p class="cl-f948b49e"><span class="cl-f948b49c"></span></p></td><td class="cl-f94950a2"><p class="cl-f948b49e"><span class="cl-f948b49d"></span></p></td><td class="cl-f94950a2"><p class="cl-f948b49e"><span class="cl-f948b49d">Inconvenient</span></p></td><td class="cl-f94950a3"><p class="cl-f948b49f"><span class="cl-f948b49d">1</span></p></td><td class="cl-f94950a2"><p class="cl-f948b49e"><span class="cl-f948b49d">Implementation of the adaptation option is not urgent and may significantly impact the existing development plans</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-f94950a2"><p class="cl-f948b49e"><span class="cl-f948b49c">Co-benefits</span></p></td><td class="cl-f94950a2"><p class="cl-f948b49e"><span class="cl-f948b49d">Natural Systems</span></p></td><td class="cl-f94950a2"><p class="cl-f948b49e"><span class="cl-f948b49d">Low</span></p></td><td class="cl-f94950a3"><p class="cl-f948b49f"><span class="cl-f948b49d">1</span></p></td><td class="cl-f94950a2"><p class="cl-f948b49e"><span class="cl-f948b49d">No natural system co-benefits</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-f94950a2"><p class="cl-f948b49e"><span class="cl-f948b49c"></span></p></td><td class="cl-f94950a2"><p class="cl-f948b49e"><span class="cl-f948b49d"></span></p></td><td class="cl-f94950a2"><p class="cl-f948b49e"><span class="cl-f948b49d">Moderate</span></p></td><td class="cl-f94950a3"><p class="cl-f948b49f"><span class="cl-f948b49d">2</span></p></td><td class="cl-f94950a2"><p class="cl-f948b49e"><span class="cl-f948b49d">Some benefits to natural systems</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-f94950a2"><p class="cl-f948b49e"><span class="cl-f948b49c"></span></p></td><td class="cl-f94950a2"><p class="cl-f948b49e"><span class="cl-f948b49d"></span></p></td><td class="cl-f94950a2"><p class="cl-f948b49e"><span class="cl-f948b49d">High</span></p></td><td class="cl-f94950a3"><p class="cl-f948b49f"><span class="cl-f948b49d">3</span></p></td><td class="cl-f94950a2"><p class="cl-f948b49e"><span class="cl-f948b49d">Many benefits to natural systems</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-f94950a2"><p class="cl-f948b49e"><span class="cl-f948b49c"></span></p></td><td class="cl-f94950a2"><p class="cl-f948b49e"><span class="cl-f948b49d">Human Systems</span></p></td><td class="cl-f94950a2"><p class="cl-f948b49e"><span class="cl-f948b49d">Low</span></p></td><td class="cl-f94950a3"><p class="cl-f948b49f"><span class="cl-f948b49d">1</span></p></td><td class="cl-f94950a2"><p class="cl-f948b49e"><span class="cl-f948b49d">Few people benefit (social, economic/livelihoods, inclusivity, gender)</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-f94950a2"><p class="cl-f948b49e"><span class="cl-f948b49c"></span></p></td><td class="cl-f94950a2"><p class="cl-f948b49e"><span class="cl-f948b49d"></span></p></td><td class="cl-f94950a2"><p class="cl-f948b49e"><span class="cl-f948b49d">Moderate</span></p></td><td class="cl-f94950a3"><p class="cl-f948b49f"><span class="cl-f948b49d">2</span></p></td><td class="cl-f94950a2"><p class="cl-f948b49e"><span class="cl-f948b49d">Moderate number of people benefit</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-f94950a2"><p class="cl-f948b49e"><span class="cl-f948b49c"></span></p></td><td class="cl-f94950a2"><p class="cl-f948b49e"><span class="cl-f948b49d"></span></p></td><td class="cl-f94950a2"><p class="cl-f948b49e"><span class="cl-f948b49d">High</span></p></td><td class="cl-f94950a3"><p class="cl-f948b49f"><span class="cl-f948b49d">3</span></p></td><td class="cl-f94950a2"><p class="cl-f948b49e"><span class="cl-f948b49d">Large number of people benefit</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-f94950a2"><p class="cl-f948b49e"><span class="cl-f948b49c">Positive Systems Synergies</span></p></td><td class="cl-f94950a2"><p class="cl-f948b49e"><span class="cl-f948b49d">Positive impacts</span></p></td><td class="cl-f94950a2"><p class="cl-f948b49e"><span class="cl-f948b49d">Low</span></p></td><td class="cl-f94950a3"><p class="cl-f948b49f"><span class="cl-f948b49d">1</span></p></td><td class="cl-f94950a2"><p class="cl-f948b49e"><span class="cl-f948b49d">Largely confined within a single system</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-f94950a2"><p class="cl-f948b49e"><span class="cl-f948b49c"></span></p></td><td class="cl-f94950a2"><p class="cl-f948b49e"><span class="cl-f948b49d"></span></p></td><td class="cl-f94950a2"><p class="cl-f948b49e"><span class="cl-f948b49d">Moderate</span></p></td><td class="cl-f94950a3"><p class="cl-f948b49f"><span class="cl-f948b49d">2</span></p></td><td class="cl-f94950a2"><p class="cl-f948b49e"><span class="cl-f948b49d">Links strongly to 2-3 systems</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-f94950a2"><p class="cl-f948b49e"><span class="cl-f948b49c"></span></p></td><td class="cl-f94950a2"><p class="cl-f948b49e"><span class="cl-f948b49d"></span></p></td><td class="cl-f94950a2"><p class="cl-f948b49e"><span class="cl-f948b49d">High</span></p></td><td class="cl-f94950a3"><p class="cl-f948b49f"><span class="cl-f948b49d">3</span></p></td><td class="cl-f94950a2"><p class="cl-f948b49e"><span class="cl-f948b49d">Links strongly to 4 or more systems</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-f94950a2"><p class="cl-f948b49e"><span class="cl-f948b49c">Negative Systems Synergies</span></p></td><td class="cl-f94950a2"><p class="cl-f948b49e"><span class="cl-f948b49d">Negative impacts</span></p></td><td class="cl-f94950a2"><p class="cl-f948b49e"><span class="cl-f948b49d">Low</span></p></td><td class="cl-f94950a3"><p class="cl-f948b49f"><span class="cl-f948b49d">3</span></p></td><td class="cl-f94950a2"><p class="cl-f948b49e"><span class="cl-f948b49d">Low potential of negative impacts on another system (e.g. aquaculture in dams can increase nutrient levels in water supply systems)</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-f94950a2"><p class="cl-f948b49e"><span class="cl-f948b49c"></span></p></td><td class="cl-f94950a2"><p class="cl-f948b49e"><span class="cl-f948b49d"></span></p></td><td class="cl-f94950a2"><p class="cl-f948b49e"><span class="cl-f948b49d">Moderate</span></p></td><td class="cl-f94950a3"><p class="cl-f948b49f"><span class="cl-f948b49d">2</span></p></td><td class="cl-f94950a2"><p class="cl-f948b49e"><span class="cl-f948b49d">Medium potential of negative impacts on another system</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-f94950a2"><p class="cl-f948b49e"><span class="cl-f948b49c"></span></p></td><td class="cl-f94950a2"><p class="cl-f948b49e"><span class="cl-f948b49d"></span></p></td><td class="cl-f94950a2"><p class="cl-f948b49e"><span class="cl-f948b49d">High</span></p></td><td class="cl-f94950a3"><p class="cl-f948b49f"><span class="cl-f948b49d">1</span></p></td><td class="cl-f94950a2"><p class="cl-f948b49e"><span class="cl-f948b49d">High potential of negative impacts on another system</span></p></td></tr></tbody></table></div></template>
+<div class="flextable-shadow-host" id="966846d0-071b-4a69-9073-9b9569297840"></div>
+<script>
+var dest = document.getElementById("966846d0-071b-4a69-9073-9b9569297840");
+var template = document.getElementById("092f74e2-9102-48a6-81d9-7acb1c76139e");
+var caption = template.content.querySelector("caption");
+if(caption) {
+  caption.style.cssText = "display:block;text-align:center;";
+  var newcapt = document.createElement("p");
+  newcapt.appendChild(caption)
+  dest.parentNode.insertBefore(newcapt, dest.previousSibling);
+}
+var fantome = dest.attachShadow({mode: 'open'});
+var templateContent = template.content;
+fantome.appendChild(templateContent);
+</script>
+
+<p><strong><em>Adaptation Options – Ranked:</em></strong></p>
+<ol style="list-style-type: decimal">
+<li>Sustain and protect ecosystems and ecosystem goods and services including the integrity of water resources through: general tree planting and creation of buffer zones along riverbanks, lakes and wetlands in rural and urban areas; encouraging use of alternative energy sources and energy efficient appliances; capacity building and implementation of community based catchment and natural resources management; support agricultural intensification, and; enhanced law enforcement.</li>
+<li>Promote a climate-resilient food production system by implementing a range of strategies including: growing crops that are resilient to projected higher temperatures and early maturing to cope with the shifting growing season; use of organic manure to buttress high costs of fertilizers; provision of subsidies on farm inputs and access to loans; enhancing the infrastructure for and management of irrigation to reduce dependence on rain fed agriculture; strengthening and increasing the reach of extension services and training for farmers; access to drought and flood early warning information; provision of storage facilities for various crop and livestock products, and; creation of local markets through establishment of more agricultural companies.</li>
+<li>Forecasting and early warning systems for droughts and floods should be in place at sub-national scale and relevant for adoption and application in the different systems and increase funding to the national disaster risk management programs.</li>
+<li>Promotion of alternative economic opportunities for lakeshore people to alleviate fishing pressure and enhanced collaboration between the fishermen and the department of fisheries to promote sustainable fish utilization.</li>
+<li>In order to sustain energy production and distribution under climate change, the following measures should be undertaken: adopt alternative renewable energy sources like solar energy to diversify the energy mix and reduce environmental pressures from woodfuel demand; expand and reinforce water storage in dams by planting trees around dams; relocate settlement areas demarcated for dam construction, and; ensure that dams comply with all environmental regulations and laws.</li>
+<li>In order to ensure rural and urban water supplies under climate change, the following should be undertaken: restoration of the Lilongwe River catchment and dam catchments through re-afforestation; expansion of the Lunyangwa and Kamuzu dams; expansion of the water transmission and distribution networks; reduction of non-revenue water, and; exploration for new water sources such as the Likhubula project which extracts water from Mulanje mountain.</li>
+<li>Climate proof supply distribution systems (water/power), waste management systems (sanitation) and transport systems (roads, railways, bridges) and improve the connectivity within the different systems.</li>
+<li>Implement effective waste management in urban areas by: increasing the capacity of city or town assemblies to collect waste from residential areas; enhancing regular treatment of solid and liquid waste from industries and biomedical facilities before disposal and discharge; effecting automation and regular maintenance of the sewer systems to detect leakages and prevent blockages and obstruction; constructing landfills in areas less prone to floods, and; carrying out civic education of the public to change their attitudes such as towards waste segregation and recycling.</li>
+<li>Improve general population health through provision of sanitation and hygiene infrastructure and awareness creation, increasing the number of health workers, and relocation of people from flood prone areas.</li>
+</ol>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="climate-change-adaptation-assessment.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="implementation-strategy-including-costs.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/napdown/MalawiNAP000/edit/BRANCH/07-adapt_priorities.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["_main.pdf", "_main.epub"],
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

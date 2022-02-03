@@ -1,0 +1,225 @@
+"0","library(remotes)"
+"0","library(raster)"
+"2","Loading required package: sp
+"
+"0","library(rasterVis)"
+"2","Loading required package: lattice
+"
+"0","library(reshape)"
+"0","library(dplyr)"
+"2","
+Attaching package: ‘dplyr’
+
+"
+"2","The following object is masked from ‘package:reshape’:
+
+    rename
+
+"
+"2","The following objects are masked from ‘package:raster’:
+
+    intersect, select, union
+
+"
+"2","The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+"
+"2","The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+"
+"0","library(lubridate)"
+"2","
+Attaching package: ‘lubridate’
+
+"
+"2","The following object is masked from ‘package:reshape’:
+
+    stamp
+
+"
+"2","The following objects are masked from ‘package:raster’:
+
+    intersect, union
+
+"
+"2","The following objects are masked from ‘package:base’:
+
+    date, intersect, setdiff, union
+
+"
+"0","library(tidyr)"
+"2","
+Attaching package: ‘tidyr’
+
+"
+"2","The following objects are masked from ‘package:reshape’:
+
+    expand, smiths
+
+"
+"2","The following object is masked from ‘package:raster’:
+
+    extract
+
+"
+"0","library(magrittr)"
+"2","
+Attaching package: ‘magrittr’
+
+"
+"2","The following object is masked from ‘package:tidyr’:
+
+    extract
+
+"
+"2","The following object is masked from ‘package:raster’:
+
+    extract
+
+"
+"0","library(R.utils)"
+"2","Loading required package: R.oo
+"
+"2","Loading required package: R.methodsS3
+"
+"2","R.methodsS3 v1.8.1 (2020-08-26 16:20:06 UTC) successfully loaded. See ?R.methodsS3 for help.
+"
+"2","R.oo v1.24.0 (2020-08-26 16:11:58 UTC) successfully loaded. See ?R.oo for help.
+"
+"2","
+Attaching package: ‘R.oo’
+
+"
+"2","The following object is masked from ‘package:R.methodsS3’:
+
+    throw
+
+"
+"2","The following object is masked from ‘package:magrittr’:
+
+    equals
+
+"
+"2","The following objects are masked from ‘package:raster’:
+
+    extend, trim
+
+"
+"2","The following objects are masked from ‘package:methods’:
+
+    getClasses, getMethods
+
+"
+"2","The following objects are masked from ‘package:base’:
+
+    attach, detach, load, save
+
+"
+"2","R.utils v2.11.0 (2021-09-26 08:30:02 UTC) successfully loaded. See ?R.utils for help.
+"
+"2","
+Attaching package: ‘R.utils’
+
+"
+"2","The following object is masked from ‘package:magrittr’:
+
+    extract
+
+"
+"2","The following object is masked from ‘package:tidyr’:
+
+    extract
+
+"
+"2","The following objects are masked from ‘package:raster’:
+
+    extract, resample
+
+"
+"2","The following object is masked from ‘package:utils’:
+
+    timestamp
+
+"
+"2","The following objects are masked from ‘package:base’:
+
+    cat, commandArgs, getOption, inherits, isOpen, nullfile,
+    parse, warnings
+
+"
+"0","library(reticulate)"
+"2","*** recursive gc invocation
+"
+"2","*** recursive gc invocation
+"
+"2","*** recursive gc invocation
+"
+"2","*** recursive gc invocation
+"
+"2","*** recursive gc invocation
+"
+"2","*** recursive gc invocation
+"
+"2","*** recursive gc invocation
+"
+"2","*** recursive gc invocation
+"
+"0","library(sf)"
+"2","Linking to GEOS 3.9.1, GDAL 3.2.1, PROJ 7.2.1; sf_use_s2() is TRUE
+"
+"0","library(plotly)"
+"2","Loading required package: ggplot2
+"
+"2","
+Attaching package: ‘plotly’
+
+"
+"2","The following object is masked from ‘package:ggplot2’:
+
+    last_plot
+
+"
+"2","The following object is masked from ‘package:reshape’:
+
+    rename
+
+"
+"2","The following object is masked from ‘package:raster’:
+
+    select
+
+"
+"2","The following object is masked from ‘package:stats’:
+
+    filter
+
+"
+"2","The following object is masked from ‘package:graphics’:
+
+    layout
+
+"
+"0","library(ggplot2)"
+"0","library(rgee)"
+"0","library(FAOSTAT)"
+"0","library(wbstats)"
+"0","library(tidyr)"
+"0","library(flextable)"
+"2","
+Attaching package: ‘flextable’
+
+"
+"2","The following objects are masked from ‘package:plotly’:
+
+    highlight, style
+
+"
+"2","The following object is masked from ‘package:raster’:
+
+    rotate
+
+"
