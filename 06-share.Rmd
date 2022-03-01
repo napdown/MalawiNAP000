@@ -248,11 +248,9 @@ basearea1<-mean(area1.tmean)
 
                     Scenario: SSP5 - Fossil-fueled Development
                                       
-                                      National
+                                  National
                                    
 ```{r}
-
-par(mfrow=c(2,2),mar=c(1, 0, 2.2, 3))
 
 # 126
 tn126.40<-stack("C:/Users/Makabe/opennaps/WC_Fut_data/tmin126/wc2.1_2.5m_tmin_BCC-CSM2-MR_ssp126_2021-2040.tif")%>%raster::crop(malawisf)%>%raster::mask(malawisf)
@@ -301,11 +299,10 @@ plot(malawisf$geometry, add=T, lwd=0.001)
 
 ```
 
-                                        Northern Malawi
+                                       
+                                     Northern Malawi
                           
 ```{r}
-par(mfrow=c(2,2),mar=c(1, 0, 2.2, 3))
-
 # 126
 tn126.40<-stack("C:/Users/Makabe/opennaps/WC_Fut_data/tmin126/wc2.1_2.5m_tmin_BCC-CSM2-MR_ssp126_2021-2040.tif")%>%raster::crop(north)%>%raster::mask(north)
 tx126.40<-stack("C:/Users/Makabe/opennaps/WC_Fut_data/tmax126/wc2.1_2.5m_tmax_BCC-CSM2-MR_ssp126_2021-2040.tif")%>%raster::crop(north)%>%raster::mask(north)
@@ -354,11 +351,9 @@ plot(tvar585, sub= paste(names(tvar585)), legend.only=FALSE, horizontal = FALSE,
 
 ```
 
-                                        Central Malawi
+                                  Central Malawi
                             
 ```{r}
-
-
 # 126
 tn126.40<-stack("C:/Users/Makabe/opennaps/WC_Fut_data/tmin126/wc2.1_2.5m_tmin_BCC-CSM2-MR_ssp126_2021-2040.tif")%>%raster::crop(central)%>%raster::mask(central)
 tx126.40<-stack("C:/Users/Makabe/opennaps/WC_Fut_data/tmax126/wc2.1_2.5m_tmax_BCC-CSM2-MR_ssp126_2021-2040.tif")%>%raster::crop(central)%>%raster::mask(central)
@@ -407,7 +402,7 @@ plot(malawisf$geometry, add=T, lwd=0.001)
 
 ```
 
-                                          Southern Malawi
+                                      Southern Malawi
                                           
 ```{r}
 
@@ -480,9 +475,9 @@ pr.basesouth<-mean(south.pr)
 
 ```
 
-                                 Scenario: SSP5 - Fossil-fueled Development
+                                Scenario: SSP5 - Fossil-fueled Development
                                          
-                                          National
+                                        National
                             
 ```{r}
 par(mfrow=c(2,2),mar=c(1, 0, 2, 2))
@@ -732,7 +727,7 @@ The Food Production System in Malawi is complex – highly fragmented and depend
 
 ```{r}
 ind<-wb_indicators()
-#wb_countries()
+ #wb_countries()
 
 #NV.AGR.PCAP.KD.ZG -2012
 #NV.AGR.TOTL.ZG -2012

@@ -15,6 +15,10 @@ link-citations: yes
 github-repo: rstudio/bookdown-demo
 ---
 
+```{r, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning=FALSE)
+``` 
+
 # Preliminaries {-}
 ## The process to formulate the NAP {-}
 

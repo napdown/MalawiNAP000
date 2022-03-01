@@ -69,7 +69,7 @@ library(flextable)
 ```
 
 ```{r extent,include=FALSE}
-#MWI0<-getData('GADM', country='MWI', level=0)
+MWI0<-getData('GADM', country='MWI', level=0)
 MWI1<-getData('GADM', country='MWI', level=1)
 MWI2<-getData('GADM', country='MWI', level=2)
 #getData('ISO3')

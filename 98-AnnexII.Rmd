@@ -79,6 +79,8 @@ names(tvar585)<-month.name
 plot(tvar585, sub=paste0(names(tvar585)),legend.only=FALSE, horizontal = F,legend.args = list(text='°C', side = 3, line = 0.5, las=1), col=heat.colors(10, rev = T))
 plot(malawisf$geometry, add=T, lwd=0.001)
 
+
+
 ```
 
                                         Northern Malawi
